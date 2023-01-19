@@ -1,0 +1,18 @@
+.odd {
+    background-color: rgb(241, 16, 80);
+    font-family: Verdana, DejavuSans, sans-serif;
+}
+
+.setFontSize24 {
+    font-size: 24px;
+}
+
+#firstDiv {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#secondDiv {
+    background-color: rgb(100, 255, 0);
+    font-weight: bold;
+}
