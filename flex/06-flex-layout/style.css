@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -24,4 +24,56 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #6f6f6f;
+}
+
+body,
+.header,
+.buttons,
+.footer,
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+body {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+.buttons {
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+}
+
+.left-links,
+.right-links {
+  padding: 0 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  min-height: 40px;
 }
